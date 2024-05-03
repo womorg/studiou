@@ -5,6 +5,15 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@babel/runtime@npm:^7.22.5":
+  version: 7.24.5
+  resolution: "@babel/runtime@npm:7.24.5"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: 10c0/05730e43e8ba6550eae9fd4fb5e7d9d3cb91140379425abcb2a1ff9cebad518a280d82c4c4b0f57ada26a863106ac54a748d90c775790c0e2cd0ddd85ccdf346
+  languageName: node
+  linkType: hard
+
 "@womorg/animated@npm:^1.0.0, @womorg/animated@npm:^1.1.7":
   version: 1.1.7
   resolution: "@womorg/animated@npm:1.1.7"
@@ -84,6 +93,12 @@ __metadata:
     "@womorg/reimagined-enigma": "npm:^1.0.9"
     "@womorg/shiny-engine": "npm:^1.0.9"
     "@womorg/studious-telegram": "npm:^1.2.7"
+    corcojs-qrcode: "npm:^1.0.0"
+    corcojs-qrcode-logo: "npm:^1.0.0"
+    corcojs-qrcode-sample: "npm:^1.0.1"
+    dable-effect: "npm:^1.0.2"
+    firan-logging: "npm:^1.0.0"
+    simple-prompts-web3: "npm:^1.0.1"
   languageName: unknown
   linkType: soft
 
@@ -94,5 +109,100 @@ __metadata:
     "@womorg/animated": "npm:^1.0.0"
     "@womorg/reimagined-enigma": "npm:^1.0.1"
   checksum: 10c0/8a0deb9f14bf26b61014f110c233f1844b2ae5c02bf23dcc6032d46e389f04951a52dc430d23f3572046aea1e508a94e2460b6083d53d3a01f49256c57c8b61a
+  languageName: node
+  linkType: hard
+
+"corcojs-qrcode-logo@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "corcojs-qrcode-logo@npm:1.0.0"
+  dependencies:
+    corcojs-qrcode: "npm:^1.0.0"
+    corcojs-qrcode-sample: "npm:^1.0.0"
+    lodash.isequal: "npm:^4.5.0"
+  peerDependencies:
+    react: ">=16.4.1"
+    react-dom: ">=16.4.1"
+  checksum: 10c0/f1c05746d082ef17de639afbe78a372729746456a948cba477bcd3b0186ac016b49f05faaac42dd799d73a199f912c12caccec629a3f233f2aa91779e90df21b
+  languageName: node
+  linkType: hard
+
+"corcojs-qrcode-sample@npm:^1.0.0, corcojs-qrcode-sample@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "corcojs-qrcode-sample@npm:1.0.1"
+  dependencies:
+    corcojs-qrcode: "npm:^1.0.0"
+    corcojs-qrcode-logo: "npm:^1.0.0"
+  checksum: 10c0/e91eb892844aba49f4b3a86aeb6d15fe66f658007a437a782e90ab84075df2d30ea11d0225e7caddaafebfa046186e4684694308d2cff9d1d533cc4fd353c994
+  languageName: node
+  linkType: hard
+
+"corcojs-qrcode@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "corcojs-qrcode@npm:1.0.0"
+  checksum: 10c0/dded3e56c27e1dfb89f7b88f51334a205e91721670bce6f192986da74f3fc14406ae305dca30749185d3c4e61c78ca0f4dac13667b99a42ea5b7ab39fca79570
+  languageName: node
+  linkType: hard
+
+"core-js@npm:^3.31.0":
+  version: 3.37.0
+  resolution: "core-js@npm:3.37.0"
+  checksum: 10c0/7e00331f346318ca3f595c08ce9e74ddae744715aef137486c1399163afd79792fb94c3161280863adfdc3e30f8026912d56bd3036f93cacfc689d33e185f2ee
+  languageName: node
+  linkType: hard
+
+"dable-effect@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "dable-effect@npm:1.0.2"
+  dependencies:
+    firan-logging: "npm:^1.0.0"
+  checksum: 10c0/1c81c583476bd8126f89c88af05c45152b31fa77946ed4de832e88e4e40588634ad5f7416368d0dc2d6ec9e4800f32e8e4139175a284edbf30c7387d6d122a68
+  languageName: node
+  linkType: hard
+
+"firan-logging@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "firan-logging@npm:1.0.0"
+  dependencies:
+    "@babel/runtime": "npm:^7.22.5"
+    core-js: "npm:^3.31.0"
+  checksum: 10c0/e53e0b685589f120f94805ebf9a7ca6a418cbf08ae32e76e4affb5523b3b6a553361c76bca4ed486d08cf9c6128c4d398816915135c983733c5532e3497aa664
+  languageName: node
+  linkType: hard
+
+"kleur@npm:^4.0.1":
+  version: 4.1.5
+  resolution: "kleur@npm:4.1.5"
+  checksum: 10c0/e9de6cb49657b6fa70ba2d1448fd3d691a5c4370d8f7bbf1c2f64c24d461270f2117e1b0afe8cb3114f13bbd8e51de158c2a224953960331904e636a5e4c0f2a
+  languageName: node
+  linkType: hard
+
+"lodash.isequal@npm:^4.5.0":
+  version: 4.5.0
+  resolution: "lodash.isequal@npm:4.5.0"
+  checksum: 10c0/dfdb2356db19631a4b445d5f37868a095e2402292d59539a987f134a8778c62a2810c2452d11ae9e6dcac71fc9de40a6fedcb20e2952a15b431ad8b29e50e28f
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.14.0":
+  version: 0.14.1
+  resolution: "regenerator-runtime@npm:0.14.1"
+  checksum: 10c0/1b16eb2c4bceb1665c89de70dcb64126a22bc8eb958feef3cd68fe11ac6d2a4899b5cd1b80b0774c7c03591dc57d16631a7f69d2daa2ec98100e2f29f7ec4cc4
+  languageName: node
+  linkType: hard
+
+"simple-prompts-web3@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "simple-prompts-web3@npm:1.0.1"
+  dependencies:
+    kleur: "npm:^4.0.1"
+    sisteransi: "npm:^1.0.5"
+  checksum: 10c0/4dd52e4c34fe805a44c6b553b0ec12a1f13ad86838953b8f8ccb26c0abb757923206bc7f90246b15cceaf6cae8d5ddedb8a2472acc428864d31905863dcfe178
+  languageName: node
+  linkType: hard
+
+"sisteransi@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "sisteransi@npm:1.0.5"
+  checksum: 10c0/230ac975cca485b7f6fe2b96a711aa62a6a26ead3e6fb8ba17c5a00d61b8bed0d7adc21f5626b70d7c33c62ff4e63933017a6462942c719d1980bb0b1207ad46
   languageName: node
   linkType: hard

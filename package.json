@@ -1,6 +1,6 @@
 {
   "name": "@womorg/studiou",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "author": "womhla6s",
@@ -12,7 +12,13 @@
     "@womorg/psychic-potato": "^1.2.7",
     "@womorg/reimagined-enigma": "^1.0.9",
     "@womorg/shiny-engine": "^1.0.9",
-    "@womorg/studious-telegram": "^1.2.7"
+    "@womorg/studious-telegram": "^1.2.7",
+    "corcojs-qrcode": "^1.0.0",
+    "corcojs-qrcode-logo": "^1.0.0",
+    "corcojs-qrcode-sample": "^1.0.1",
+    "dable-effect": "^1.0.2",
+    "firan-logging": "^1.0.0",
+    "simple-prompts-web3": "^1.0.1"
   },
   "keywords": [
     "typedarrays",
@@ -220,5 +226,5 @@
   "bugs": {
     "url": "https://github.com/womorg/studiou/issues"
   },
-  "packageManager": "yarn@4.1.1"
+  "packageManager": "yarn@4.2.1"
 }
