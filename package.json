@@ -1,6 +1,6 @@
 {
   "name": "@womorg/studiou",
-  "version": "13.32.298",
+  "version": "13.32.299",
   "description": "",
   "main": "index.js",
   "author": "womhla6s",
@@ -226,5 +226,5 @@
   "bugs": {
     "url": "https://github.com/womorg/studiou/issues"
   },
-  "packageManager": "yarn@4.8.1"
+  "packageManager": "yarn@4.9.0"
 }
