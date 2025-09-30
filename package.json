@@ -1,9 +1,9 @@
 {
   "name": "@womorg/studiou",
-  "version": "15.35.350",
+  "version": "15.36.350",
   "description": "",
   "main": "index.js",
-  "author": "womhla6s",
+  "author": "maggaopen",
   "license": "MIT",
   "dependencies": {
     "@womorg/animated": "^1.1.7",
@@ -226,5 +226,5 @@
   "bugs": {
     "url": "https://github.com/womorg/studiou/issues"
   },
-  "packageManager": "yarn@4.9.2"
+  "packageManager": "yarn@4.10.3"
 }
