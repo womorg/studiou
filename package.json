@@ -1,6 +1,6 @@
 {
   "name": "@womorg/studiou",
-  "version": "24.51.570",
+  "version": "24.51.571",
   "description": "",
   "main": "index.js",
   "author": "maggaopen",
@@ -226,5 +226,5 @@
   "bugs": {
     "url": "https://github.com/womorg/studiou/issues"
   },
-  "packageManager": "yarn@4.15.0"
+  "packageManager": "yarn@4.16.0"
 }
